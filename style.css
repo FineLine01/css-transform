@@ -1,12 +1,11 @@
 .box-container {
     display: flex;
-    flex-wrap: wrap;
-    row-gap: 30px;
-    gap: 10px;
-    
+    gap: 35px;
+    opacity: 0.7;
 }
 
 .box {
+    
     height: 140px;
     width: 180px;
     background-color: palegoldenrod;
@@ -17,7 +16,8 @@
     background-color: palevioletred;
     color: wheat;
     transform: translateY(+30px);
-        
+    cursor: crosshair;
+
 }
 
 .special {
@@ -26,12 +26,13 @@
 
 .boxx-container {
     display: flex;
-    flex-wrap: wrap;
-    row-gap: 30px;
-    gap: 10px;
+    gap: 35px;
+    opacity: 0.5;
+    
 }
 
 .boxx {
+    cursor: crosshair;
     height: 140px;
     width: 180px;
     background-color: palegoldenrod;
@@ -47,4 +48,34 @@
 
 .speciall {
     transform: translateY(+20px);
+}
+
+@media (max-width: 586px) {
+   .box-container {
+    display: flex;
+    flex-direction: column;
+}
+.boxx-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    transform: translate(0);
+}
+
+.special {
+    transform: translate(0);
+    transform: translateX(25px);
+}
+    
+.boxx {
+    transform: translate(0);
+}
+
+.speciall {
+    transform: translate(0);
+    transform: translateX(25px);
+}
+
 }
