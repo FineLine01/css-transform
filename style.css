@@ -1,0 +1,50 @@
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    gap: 10px;
+    
+}
+
+.box {
+    height: 140px;
+    width: 180px;
+    background-color: palegoldenrod;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    color: wheat;
+    transform: translateY(+30px);
+        
+}
+
+.special {
+    transform: translateY(-10px);
+}
+
+.boxx-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    gap: 10px;
+}
+
+.boxx {
+    height: 140px;
+    width: 180px;
+    background-color: palegoldenrod;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    color: wheat;
+    transform: translateY(+50px);
+    
+}
+
+.speciall {
+    transform: translateY(+20px);
+}
